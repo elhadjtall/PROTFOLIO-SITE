@@ -159,7 +159,7 @@ section {
     right: 0;
     width: 768px;
     height: 768px;
-    background: purple;
+    /* background: purple; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -174,4 +174,27 @@ section {
     color: var(--main-color);
     transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
+    background: var(--bg-color);
+    padding: 13px 0;
 }
+.home .profession-box .profession:nth-child(1) i {
+    margin-right: 15px;
+}
+.home .profession-box .profession:nth-child(2),
+.home .profession-box .profession:nth-child(4) {
+    padding-bottom: 20px;
+}
+.home .profession i {
+    font-size: 3.8rem;
+}
+.home .profession h3 {
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 600;
+}
+.home .profession-box .cercle {
+    width: 500px;
+    height: 560px;
+    /* background: red; */
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
